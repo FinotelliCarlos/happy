@@ -18,42 +18,42 @@ aside {
 aside h2 {
   margin-top: 6.4rem;
 
-  font: 800 clamp(2rem, 5vw, 3.6rem)/1.1 'Nunito', sans-serif;
+  font: 800 clamp(2rem, 5vw, 3.6rem) / 1.1 "Nunito", sans-serif;
 }
 
 aside p {
   margin-top: 2.4rem;
-  font: 400 1.6rem/1.5 'Nunito', sans-serif;
+  font: 400 1.6rem/1.5 "Nunito", sans-serif;
 }
 
-aside footer p{
-  margin-top: .8rem;
+aside footer p {
+  margin-top: 0.8rem;
 }
 
-#mapid{
-    width: 50%;
+#mapid {
+  width: 50%;
 }
 
 /*button*/
 
 a.create-orphanage {
-    position: absolute;
-    right: 4rem;
-    bottom: 4rem;
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
 
-    width: 6.4rem;
-    height: 6.4rem;
-    background: #15C3D6;
-    border: 0;
-    border-radius: 2rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  background: #15c3d6;
+  border: 0;
+  border-radius: 2rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    transition: background-color 200ms;
+  transition: background-color 200ms;
 }
 
-a.create-orphanage:hover{
-    background: #17d6eb;
+a.create-orphanage:hover {
+  background: #17d6eb;
 }
