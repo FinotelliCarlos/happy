@@ -1,4 +1,3 @@
-
 /*animation*/
 @keyframes up {
   from {
@@ -21,7 +20,6 @@
   }
 }
 
-
 @keyframes appear {
   from {
     opacity: 0;
@@ -43,7 +41,7 @@
 }
 
 .animate-appear {
-  animation-name:appear;
+  animation-name: appear;
   animation-duration: 300ms;
   animation-fill-mode: backwards;
 }
