@@ -8,3 +8,6 @@ Plugins
 npm install express
 
 npm install nodemon
+
+npm install hbs
+    -handlebars{template engine}
