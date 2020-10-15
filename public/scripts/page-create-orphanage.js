@@ -2,7 +2,8 @@
 const map = L.map("mapid").setView([-23.5197659, -46.8122576], 14);
 
 //create and add tileLayer
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
+.addTo(map);
 
 //creat icon
 const icon = L.icon({
@@ -11,7 +12,9 @@ const icon = L.icon({
   IconAnchor: [29, 68],
 });
 
+
 let marker;
+
 
 //create an add marker
 map.on("click", (event) => {
@@ -25,7 +28,8 @@ map.on("click", (event) => {
   marker && map.removeLayer(marker);
 
   //add icon layer
-  marker = L.marker([lat, lng], { icon }).addTo(map);
+  marker = L.marker([lat, lng], { icon })
+  .addTo(map);
 });
 
 //adicionar o campo de fotos
@@ -43,7 +47,7 @@ function addPhotoField() {
         return
     }
     // limpar o campo antes de adicionar ao container de imagens
-    input.value == ""
+    newFieldContainer.children[0].value = ""
     // adicionar o clone ao container de imagens
     container.appendChild(newFieldContainer)
 }
@@ -51,7 +55,7 @@ function addPhotoField() {
 function deleteField(event){
     const span = event.currentTarget
 
-    const fieldsContainer = document.querySelectorAll('new-upload')
+    const fieldsContainer = document.querySelectorAll('.new-upload')
 
     if(fieldsContainer.length <= 1){
         //limpar o valor do campo
@@ -60,5 +64,23 @@ function deleteField(event){
     }
 
     //deletar o campo
-    span.parentNode.remove
+    span.parentNode.remove()
+}
+
+//troca do sim e não
+
+function toggleSelect(event){
+
+  //retirar a class .active dos botoes
+  document.querySelectorAll('.button-select button')
+  .forEach((button) => button.classList.remove('active'))
+
+  //colocar a class .active nesse botão clicado
+  const button = event.currentTarget
+  button.classList.add('active')
+
+  //atualizar o meu input com o valor selecionado
+  const input = document.querySelector('[name="open_on_weekends"]')
+
+  input.value = button.dataset.value
 }
