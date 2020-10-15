@@ -1,0 +1,20 @@
+{
+  "name": "plataformaHappy",
+  "version": "1.0.0",
+  "description": "Uma aplicação que te aproxima de crianças carentes!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinotelliCarlos/plataformaHappy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinotelliCarlos/plataformaHappy/issues"
+  },
+  "homepage": "https://github.com/FinotelliCarlos/plataformaHappy#readme"
+}
