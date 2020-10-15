@@ -7,3 +7,4 @@ Biblioteca com acesso a mapas interativos
 Plugins
 npm install express
 
+npm install nodemon
