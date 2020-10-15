@@ -1,13 +1,18 @@
 //importar dependencia
 const express = require('express');
+const path = require('path');
 
 //iniciando o express
 const server = express();
+server
+    //utilizando os arquivos estáticos
+    .use(express.static('public'))
 
-//criar uma rota
-server.get('/', () => {
+    //criar uma rota
+    .get('/', (request, response) => {
+        return response.sendFile(path.join(__dirname, 'views', 'index.html'))
+    });
 
-});
-
+    
 //server on
 server.listen(5500);
