@@ -18,4 +18,4 @@ module.exports = {
         return res.render('create-orphanage')
     }
 
-}
+};
