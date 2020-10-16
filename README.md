@@ -4,10 +4,12 @@
 #leaflet 
 Biblioteca com acesso a mapas interativos
 
-Plugins
+#Plugins
 npm install express
+    -assist server
 
 npm install nodemon
+    -start/restart server
 
 npm install hbs
     -handlebars{template engine}
