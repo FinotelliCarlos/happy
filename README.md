@@ -13,3 +13,7 @@ npm install nodemon
 
 npm install hbs
     -handlebars{template engine}
+
+npm install sqlite-async
+    -Banco de dados SQL SERVER Lite
+
