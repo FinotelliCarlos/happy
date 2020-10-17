@@ -79,16 +79,21 @@
             </div>
 
             {{#if orphanage.open_on_weekends}}
-            <div class="open-on-weekends closed">
-              <img src="/images/info-red.svg" alt="Informações" />
-              Não atendemos aos fins de semana
-            </div>
-            {{else}}
+
             <div class="open-on-weekends open">
               <img src="/images/info.svg" alt="Informações" />
               Atendemos aos fins de semana
             </div>
+
+            {{else}}
+
+            <div class="open-on-weekends closed">
+              <img src="/images/info-red.svg" alt="Informações" />
+              Não atendemos aos fins de semana
+            </div>
+            
             {{/if}}
+
           </div>
 
           <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Olá, gostaria de conversar sobre uma visita ao {{orphanage.name}}."
