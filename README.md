@@ -15,7 +15,6 @@
 
 - [Sobre](#-Sobre)
 - [Preview WEB Desktop](#-Preview-WEB-Desktop)
-- [Preview WEB Mobile](#-Preview-WEB-Mobile)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como executar o projeto](#-Como-executar-o-projeto)
 
@@ -38,15 +37,6 @@ Também é possível o cadastro da Casa de acolhimento para crianças e adolecen
 <br>
 <br>
 <img width="100%" src="preview/previewWebDesktop.gif" />
-
----
-
-<div align="center">
-  ⚡ <strong>#Preview WEB Mobile</strong>
-<br>
-<br>
-<img src="#" />
-</div>
 
 --- 
 
