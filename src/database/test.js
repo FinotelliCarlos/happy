@@ -32,5 +32,5 @@ Database.then(async (db) => {
   //console.log(orphanage);
 
   //deletar dado da tabela
-  //console.log(await db.run('DELETE FROM orphanages WHERE ID = "6"'))
+  //console.log(await db.run('DELETE FROM orphanages WHERE ID = "#"'))
 });
