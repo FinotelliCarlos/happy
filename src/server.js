@@ -23,4 +23,4 @@ server
   .post("/save-orphanage", pages.saveOrphanage);
 
 //server on
-server.listen(process.env.PORT || 5500);
+server.listen(process.env.PORT || 3000);
