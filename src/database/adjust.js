@@ -34,3 +34,5 @@ Database.then(async (db) => {
   //deletar dado da tabela
   //console.log(await db.run('DELETE FROM orphanages WHERE ID = "#"'))
 });
+
+// node src/database/adjust.js
