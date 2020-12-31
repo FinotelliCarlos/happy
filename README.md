@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="public/images/bg.svg" />
+  <img src="public/images/bg.svg" width="400"/>
 </div>
 
 <div align="center">
