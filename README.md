@@ -76,7 +76,7 @@ npm install
 npm start
 ```
 
-Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+Feito isso, abra o seu navegador e acesse `http://localhost:5500/`<br>
 Também é possivel acessar o projeto diretamente clicando [aqui](https://app-plataformahappy.herokuapp.com/).
 
 ---
